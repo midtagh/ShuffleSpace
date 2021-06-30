@@ -1,0 +1,19 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  },
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^5.13.0"
+  }
+}
